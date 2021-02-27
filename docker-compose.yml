@@ -1,0 +1,11 @@
+﻿version: "3.7"
+services:
+  database:
+    container_name: "EventManager.SqlServer"
+    image: "mcr.microsoft.com/mssql/server:latest"
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "myPassw0rd"
+      ACCEPT_EULA: "Y"
+    restart: unless-stopped
