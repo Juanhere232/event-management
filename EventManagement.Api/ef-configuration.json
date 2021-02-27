@@ -1,0 +1,9 @@
+﻿{
+  "ConnectionStrings": {
+    //"DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=Web.Database;User Id=sa;Password=sa;MultipleActiveResultSets=true"
+    //"DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Web.Database;MultipleActiveResultSets=true",
+
+    // DOCKER CONNECTION
+    "DefaultConnection": "Server=192.168.15.195,1433;Database=EventManagement;User=sa;Password=myPassw0rd;Integrated Security=false"
+  }
+}
